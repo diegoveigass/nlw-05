@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import { useContext, useEffect, useRef } from 'react';
-import { PlayerContext } from '../contexts/PlayerContext';
 import Slider from 'rc-slider';
 
 import 'rc-slider/assets/index.css';
 import styles from './styles.module.scss';
+import { PlayerContext } from '../../contexts/PlayerContext';
 
 export default function Player() {
   const {

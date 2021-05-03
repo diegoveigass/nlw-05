@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { PlayerContext } from '../components/contexts/PlayerContext';
+import { PlayerContext } from '../contexts/PlayerContext';
 import { format, parseISO } from 'date-fns';
 import Image from 'next/image';
 import Link from 'next/link';
